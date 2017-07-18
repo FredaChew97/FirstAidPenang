@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_Profile"
+            android:title="Main Page" />
+        <item
+            android:id="@+id/about_Us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/our_Service"
+            android:title="Our Service" />
+
+        <item
+            android:id="@+id/knowledgeQuiz"
+            android:title="Knowledge Quiz" />
+
+        <item
+            android:id="@+id/feedback_Us"
+            android:title="Feedback Us" />
+        <item
+            android:id="@+id/accounts"
+            android:title="All accounts record"/>
+
+        <item
+            android:id="@+id/logoutpath"
+            android:title="Log Out"/>
+
+    </group>
+
+</menu>

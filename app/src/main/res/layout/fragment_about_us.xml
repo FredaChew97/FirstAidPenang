@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onButtonClick"
+    tools:context="my.com.fredachew.firstaidpenang.aboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/aboutusImage"
+        android:layout_width="230dp"
+        android:layout_height="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/aboutus"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/fbAboutUsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutusImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"
+        android:text="@string/aboutUsDescription"
+        android:textSize="30px" />
+
+    <Button
+        android:id="@+id/buttonBackToProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fbAboutUsDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/backToMain" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,45 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="my.com.fredachew.firstaidpenang.knowledge_quiz_display">
+
+<!-- TODO: Update blank fragment layout -->
+<ImageView
+    android:id="@+id/knowledgeImage"
+    android:layout_width="230dp"
+    android:layout_height="217dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="57dp"
+    android:src="@drawable/takethequiz"
+    tools:layout_editor_absoluteX="115dp"
+    tools:layout_editor_absoluteY="82dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:id="@+id/knowledgequizDescription"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/knowledgeImage"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="32dp"
+    android:text="@string/knowledgequizDescription"
+    android:textAlignment="center"
+    android:textSize="30px" />
+
+<Button
+    android:id="@+id/btnKnowlegeNextPage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/knowledgequizDescription"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="41dp"
+    android:text="@string/knowledgequizNext" />
+
+
+</RelativeLayout>
+
+

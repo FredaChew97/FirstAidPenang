@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.com.fredachew.firstaidpenang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hospitalapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="my.com.fredachew.firstaidpenang.login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="my.com.fredachew.firstaidpenang.main_activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="my.com.fredachew.firstaidpenang.EmergencyCheck"
+            android:label="Emergency Check" />
+        <activity
+            android:name="my.com.fredachew.firstaidpenang.hospitalNearYou"
+            android:label="Hospital Near You" />
+        <activity
+            android:name="my.com.fredachew.firstaidpenang.clinicNearYou"
+            android:label="Clinic Near You" />
+        <activity
+            android:name="my.com.fredachew.firstaidpenang.do_n_dont_each_display"
+            android:label="Natural Disaster Do n Dont" />
+        <activity android:name="my.com.fredachew.firstaidpenang.feedbackUsForm" />
+        <activity android:name="my.com.fredachew.firstaidpenang.register" />
+        <activity android:name="my.com.fredachew.firstaidpenang.EmergencyCheckPatientInfo" />
+        <activity
+            android:name="com.thefinestartist.finestwebview.FinestWebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/FinestWebViewTheme.Light" />
+        <activity android:name="my.com.fredachew.firstaidpenang.knowledge_quiz" />
+        <activity android:name="my.com.fredachew.firstaidpenang.Answer_for_Quiz" />
+        <activity android:name="my.com.fredachew.firstaidpenang.activities.UsersListActivity" />
+        <activity android:name="my.com.fredachew.firstaidpenang.stepByStepEmergencySituationInfo"
+            android:label="Handle Emergency Situation" />
+
+        <activity android:name="my.com.fredachew.firstaidpenang.do_and_dont_list"
+            android:label="Natural Disaster Do n Dont"/>
+        <activity android:name="my.com.fredachew.firstaidpenang.doAndDont_firstpage"
+            android:label="Natural Disaster Do n Dont" />
+
+        <activity android:name="my.com.fredachew.firstaidpenang.emergency_listview"
+            android:label="Handle Emergency Situation" />
+
+        <activity android:name="my.com.fredachew.firstaidpenang.emergency_details_display"
+            android:label="Handle Emergency Situation">
+
+        </activity>
+    </application>
+
+</manifest>

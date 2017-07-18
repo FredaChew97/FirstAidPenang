@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="my.com.fredachew.firstaidpenang.EmergencyCheckPatientInfo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textSize="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="13dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvdoc"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:text="Title "
+            android:textSize="15dp"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/tvdoc"
+
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Title"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:text="Content "
+            android:textSize="15dp"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/editTextTitle"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Content"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_alignParentStart="true" />
+
+
+
+
+        <Button
+            android:id="@+id/btnPatientInfo"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:onClick="sendFeedback"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="13dp"
+            android:layout_weight="0.22"
+            android:layout_gravity="center"
+            android:layout_below="@id/editTextContent">
+
+        </Button>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">First Aid Penang</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Other string resources also defined in this file… -->
+
+
+    <string name="feedbackTitle">FeedbackTitle</string>
+    <string name="feedbackname">FeedbackName</string>
+    <string name="feedbackemail">FeedbackEmail</string>
+    <string name="feedbacktype">FeedbackType</string>
+    <string name="feedbackbody">FeedbackBody</string>
+    <string name="feedbackbutton">Submit</string>
+    <string name="FeedbackNext">Click Next to Proceed</string>
+    <string name="feedbackDescription">Please feedback our apps so we can provide more features in future!</string>
+
+    <string name="profileName">Freda Chew</string>
+    <string name="profileMail">fredachew321@gmail.com</string>
+    <string name="LogoutBtn">Logout</string>
+
+    <string name="healthcheckdescription">Send your details to us to order a doctor to perform a full emergency check up at your home.Payment is made after check up.</string>
+
+    <string name="backToMain">Back To Main</string>
+    <string name="aboutUsDescription">First Aid Penang provide Step by Step Handle Emergency Situation ,Do and Don’t When Facing Natural Disaster, Health Check to patient doorstep. Besides, there is also information about popular hospitals and clinics around Penang which falls in Hospital Near You and Clinic Near You categories.</string>
+
+
+    <string name="hospitalNearYouText">View Information of Penang Hospitals. The Information include phone number, location and also their history. </string>
+    <string name="clinicNearYouText">View Information of Penang Clinics. The Information include phone number ,images and also location. </string>
+    <string name="Submit">Submit</string>
+
+    <string name="knowledgequizDescription">This is to test your knowledge on basic medical help.</string>
+    <string name="knowledgequizNext">Next</string>
+
+    <string name="nextQuestion_button">
+        Next
+    </string>
+
+    <string name="question_1">911 is the number to call when encounter any emergency.</string>
+    <string name="question_2">Seek for medical help when encounter dizziness , vomit symptom after consuming certain medicines.</string>
+    <string name="question_3">Check on every medicine label and date before consume.</string>
+    <string name="question_4">Medicine should be consume after meal.</string>
+    <string name="question_5">Do not place your medicine everywhere.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <string name="warning_text">You want to view the correct answer?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">More Details</string>
+    <string name="info_toast">Answer is shown</string>
+
+
+    <string name="question1_explain"></string>
+    <string name="question2_explain"></string>
+    <string name="question3_explain"></string>
+    <string name="question4_explain"></string>
+    <string name="question5_explain"></string>
+
+
+    <string name="aboutUs">Click To view more</string>
+    <string name="ourService">Click To view more </string>
+    <string name="knowledge_quiz">Click To view more </string>
+    <string name="btnFeedbackUs">Click To view more </string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_age">Age</string>
+    <string name="address">Address</string>
+    <string name="condition">Describe Condition</string>
+    <string name="rateillness">Rate Illness</string>
+    <string name="allergies">Allergies</string>
+    <string name="doctor">Doctor Gender</string>
+    <string name="hospital">Hospital prefer</string>
+
+    <string name="save_benef">Save Copy </string>
+    <string name="show_list_benef">Show List</string>
+
+
+    <string name="text_accounts">All Accounts which login before</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="description">Doctor require information as below :
+    \n Title:   Request for Doctor
+     \n   \n Content :    Name , Address , age , Describe condition
+
+    </string>
+
+    <string name="doanddontText">In this categories is where the guide on how to deal with natural disasters. Do’s and Not To Do’s is included in this section </string>
+    <string name="emergencynav">In this categories is where the guide on how to handle all emergency situation. Step by Step tutorials is included in here.</string>
+    <string name="Do">Do</string>
+    <string name="Donot">Don\'t</string>
+
+</resources>

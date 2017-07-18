@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.com.fredachew.firstaidpenang.do_n_dont_each_display">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/activityDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="40px"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/Do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activityDetail"
+        android:textSize="45px"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/Do"
+        android:textStyle="bold"
+        android:textColor= "#00008B"
+
+        />
+
+    <TextView
+        android:id="@+id/DoDescription"
+        android:layout_below="@+id/Do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Do Description Here"
+        android:textSize="36px"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/Donot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DoDescription"
+        android:textSize="45px"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/Donot"
+        android:textStyle="bold"
+        android:textColor="#00008B"
+        />
+
+
+    <TextView
+        android:id="@+id/DonDescription"
+        android:layout_below="@+id/Donot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Dont Description Here"
+        android:textSize="36px"
+        android:textColor="#000000"
+        />
+
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_below="@+id/DonDescription"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp" />
+</TableLayout>
+
+</ScrollView>
